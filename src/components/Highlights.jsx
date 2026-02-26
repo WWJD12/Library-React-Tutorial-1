@@ -4,28 +4,25 @@ import Highlight from "./Highlight";
 
 const Highlights = () => {
     return ( 
-        <section id="highlights">
-            <div className="container">
-                <div className="row">
-                    <h2 className="section__title">
-                        Why choose <span className="blue">Library</span>?
-                        </h2>
-                    <div className="highlight__wrapper">
-                       <Highlight icon={<FontAwesomeIcon icon="bolt" />} 
-                        title="Easy and Quick" 
-                        para="Get access to thousands of books in seconds" />
-
-                         <Highlight icon={<FontAwesomeIcon icon="book-open" />} 
-                        title="10,000+ Books" 
-                        para="Library has books in all genres" />
-
-                         <Highlight icon={<FontAwesomeIcon icon="tags" />} 
-                        title="Affordable" 
-                        para="Get your favorite books at affordable prices" />
-                        </div>
-                        </div>
-                </div>
-        </section>
-        );
+            <section id="highlights">
+                <div className="container">
+                    <div className="row">
+                        <h2 className="section__title">
+                            Why choose <span className="blue">Library</span>?</h2>
+                            <div className="highlight__wrapper">
+                                <Highlight icon={<FontAwesomeIcon icon="bolt" />} 
+                                title="Easy and Quick" 
+                                para="Get access to thousands of books in seconds" />
+                                <Highlight icon={<FontAwesomeIcon icon="book-open" />} 
+                                title="10,000+ Books" 
+                                para="Library has books in all genres" />
+                                <Highlight icon={<FontAwesomeIcon icon="tags" />} 
+                                title="Affordable" 
+                                para="Get your favorite books at affordable prices" />
+                                </div>
+                                </div>
+                                </div>
+                                </section>
+                                );
 }
 export default Highlights;
