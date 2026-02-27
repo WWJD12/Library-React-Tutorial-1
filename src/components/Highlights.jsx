@@ -19,10 +19,10 @@ const Highlights = () => {
                                 <Highlight icon={<FontAwesomeIcon icon="tags" />} 
                                 title="Affordable" 
                                 para="Get your favorite books at affordable prices" />
-                                </div>
-                                </div>
-                                </div>
-                                </section>
-                                );
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        );
 }
 export default Highlights;
