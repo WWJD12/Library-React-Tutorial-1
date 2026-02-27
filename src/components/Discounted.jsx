@@ -1,6 +1,7 @@
 import React from "react";
 import { books } from "../data";
 import Book from "./ui/Book";
+import { faBookJournalWhills } from "@fortawesome/free-solid-svg-icons/faBookJournalWhills";
 
 const Discounted = () => {
     return ( 
