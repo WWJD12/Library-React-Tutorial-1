@@ -5,6 +5,8 @@ import Home from './components/Pages/Home';
 import Books from './components/Pages/Books'; 
 import { books } from './data';
 import Bookinfo from './components/Pages/Bookinfo';
+
+
 function App() {
   return (
     <Router>
