@@ -24,7 +24,7 @@ const Book = ({ book }) => {
     return () => {
         mountedRef.current = false;
     }
-});
+},[book.url]);
 
  return (
   <div className="book">
