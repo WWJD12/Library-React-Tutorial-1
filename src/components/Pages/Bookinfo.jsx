@@ -26,7 +26,7 @@ import Book from '../ui/Book';
                         <FontAwesomeIcon icon="arrow-left" />
                         </Link>
                         <Link to="/books" className="book__link"> 
-                        <h2 className="book__selected--title--top">Books</h2></Link>
+                        <h2 className="book__selected--title--top"> <span className="purple">Books</span></h2></Link>
                     </div>
                     <div className="books__selected">
                         <figure className="book__selected--figure">

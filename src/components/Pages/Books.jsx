@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { books } from '../../data'; 
 import Book from '../ui/Book';
 const Books = ({ books: initialBooks }) => {
   const [books, setBooks] = useState(initialBooks);
@@ -22,7 +21,7 @@ const Books = ({ books: initialBooks }) => {
             <div className="books__container">
                 <div className="row">
                     <div className="books__header">
-                        <h2 className='section__title books__header--title'>All Books</h2>
+                        <h2 className='section__title books__header--title'>All <span className="purple">Books</span></h2>
                         <select id="filter" defaultValue="DEFAULT" onChange={(event => filterBooks(event.target.value))}>
                         <option value="DEFAULT" disabled>Sort</option>
                         <option value="LOW_TO_HIGH">Price, low to high</option>

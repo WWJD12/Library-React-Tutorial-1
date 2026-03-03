@@ -9,10 +9,10 @@ const Landing = () => {
         <div className="header__container">
             <div className="header__description">
                 <h1>America's most awarded online library platform</h1>
-                <h2>Find your dream book with <span className="blue">Library</span></h2>
-                <Link to="#features">
+                <h2>Find your dream book with <span className="purple">Library</span></h2>
+                <a href="#features">
                 <button className="btn">Browse Books</button>
-                </Link>
+                </a>
             </div>
             <figure className="header__img--wrapper">
                 <img src={UndrawBooks} alt="Library Books" className="header__img" />
