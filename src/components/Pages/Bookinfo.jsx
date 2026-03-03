@@ -14,7 +14,7 @@ import Book from '../ui/Book';
   }
 
   function bookExistsOnCart() {
-    return cart.find(book => book.id === +id);
+    return cart?.find(book => book.id === +id);
   }
   return (
     <div id="books__body">
